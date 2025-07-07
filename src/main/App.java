@@ -37,7 +37,7 @@ public class App {
         Node raizEj2 = construirArbolEjercicio2(); // método auxiliar
         Node raizInvertida = invertidor.invertTree(raizEj2);
 
-        System.out.print("🪞 Árbol Invertido (InOrder): ");
+        System.out.print("Árbol Invertido (InOrder): ");
         bst.imprimirArbolInOrder(raizInvertida);
         System.out.println();
 
@@ -56,7 +56,7 @@ public class App {
             System.out.println();
         }
 
-        System.out.println("\n📏 EJERCICIO 04 - Profundidad máxima del árbol");
+        System.out.println("\n EJERCICIO 04 - Profundidad máxima del árbol");
         Node raizEj4 = construirArbolEjercicio4(); 
         Depth profundidad = new Depth();
         int profundidadMaxima = profundidad.maxDepth(raizEj4);
