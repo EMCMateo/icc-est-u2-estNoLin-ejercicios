@@ -32,7 +32,7 @@ public class App {
         System.out.println();
 
 
-        System.out.println("\n EJERCICIO 02 - Árbol Binario Invertido");
+        System.out.println("\n EJERCICIO 02  sda - Árbol Binario Invertido");
         InvertBinaryTree invertidor = new InvertBinaryTree();
         Node raizEj2 = construirArbolEjercicio2(); // método auxiliar
         Node raizInvertida = invertidor.invertTree(raizEj2);
